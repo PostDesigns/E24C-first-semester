@@ -1,0 +1,133 @@
+/* Body */
+body {
+    background-image: url(../images/Baggrund\ 3.png);
+    max-width: 100%;
+    height: auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #7c646a;
+    background-size: 100%;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Logo styling */
+.logo {
+    text-align: center; /* Centrering af logoet */
+    padding: 0;   /* Ingen plads omkring logoet */
+}
+
+.logo img {
+    max-width: 600px;  /* Juster størrelsen på logoet */
+    height: auto;      /* Bevarer proportionerne */
+    margin-top: 80px; /* Margin omkring billedet */
+}
+
+/* Navigation styling */
+.topnav {
+    display: flex;  
+    justify-content: center; 
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    margin: 20px 0; /* Reduceret plads før og efter navigationen */
+}
+
+.topnav a {
+    flex: 1;  
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.topnav a:hover {
+    background-color: #7d4747;
+    color: black;
+    transition: 0.4s ease;
+    transform: scale(1.1);
+}
+
+/* Flexbox styling */
+.flex-textbox {
+    display: flex; /* Aktiverer flexbox */
+    align-items: flex-start; /* Justerer indholdet til toppen */
+    max-width: 1200px; /* Maksimal bredde for boksen */
+    padding: 30px 20px; /* Indvendig afstand */
+    background-color: rgba(255, 255, 255, 0.8); /* Baggrundsfarve for synlighed */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Let skygge for dybde */
+}
+
+/* Artikel styling */
+.rejseartikel {
+    flex: 1; /* Lader rejseartikel fylde den tilgængelige plads */
+    margin-right: 20px; /* Plads mellem artikel og billede */
+    text-align: center; /* Venstrestil artikel indhold */
+}
+
+.rejseartikel h2, .rejseartikel h3, .rejseartikel h4 {
+    color: #333; /* Ensartet tekstfarve */
+    margin-top: 15px;
+}
+
+.rejseartikel p {
+    line-height: 1.6; /* Bedre læsbarhed */
+    margin-bottom: 10px; /* Plads mellem afsnit */
+}
+
+/* Billede til højre */
+.side-image {
+    max-width: 300px; /* Juster billedets maksimale bredde */
+    height: auto; /* Bevarer proportionerne */
+    margin-left: 20px; /* Plads mellem teksten og billedet */
+}
+
+
+/* Artikel styling */
+.rejseartikel {
+    text-align: center; /* Venstrestil artikel indhold */
+    width: 100%; /* Sikre at artiklen fylder hele bredden */
+}
+
+/* H2 og H3 styling */
+.rejseartikel h2, .rejseartikel h3, .rejseartikel h4 {
+    color: #333; /* Ensartet tekstfarve */
+    margin-top: 15px;
+}
+
+
+
+.rejseartikel h2, .rejseartikel h3, .rejseartikel h4 {
+    color: #333; /* Ensartet tekstfarve */
+    margin-top: 15px;
+}
+
+.rejseartikel p {
+    line-height: 1.6; /* Bedre læsbarhed */
+    margin-bottom: 10px; /* Plads mellem afsnit */
+}
+
+.rejseartikel ul {
+    list-style-type: disc; /* Punkterede lister */
+    margin-left: 20px; /* Indrykning af liste */
+}
+
+@media (max-width: 768px) {
+    .flex-textbox {
+        padding: 15px 10px; /* Mindre indvendig afstand på små skærme */
+    }
+
+    .topnav a {
+        font-size: 16px; /* Mindre skriftstørrelse på mobile enheder */
+    }
+
+    .button-image {
+        max-width: 200px; /* Juster billedstørrelse på små skærme */
+    }
+}

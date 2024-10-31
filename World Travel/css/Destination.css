@@ -1,0 +1,164 @@
+/* Body */
+body {
+    background-image: url(../images/Baggrund\ 3.png);
+    max-width: 100%;
+    height: auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #7c646a;
+    background-size: 100%;
+  }
+  
+  html, body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Logo styling */
+  .logo {
+    text-align: center; /* Centrerer logoet */
+    padding: 0;   /* Ingen plads omkring logoet */
+  }
+  
+  .logo img {
+    max-width: 600px;  /* Juster størrelsen på logoet */
+    height: auto;      /* Bevarer proportionerne */
+    margin-top: 80px;         /* Margin omkring billedet */
+  }
+  
+  /* Add a background color to the top navigation */
+  .topnav {
+    display: flex;  
+    justify-content: center; 
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    margin: 20px 0; /* Reduceret plads før og efter navigationen */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    flex: 1;  /* Giver links lige meget plads */
+    color: #000000;
+    text-align: center;
+    padding: 20px; /* Ensartet padding */
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #7d4747;
+    color: black;
+    transition: 0.4s ease;
+    transform: scale(1.1);
+  }
+  
+  /* Flexbox styling */
+  .flex-textbox {
+    text-align: center;                    /* Centrerer alt indhold i flex-boksen */
+    margin: 0 auto;                        /* Centrerer flex-textbox horisontalt */
+    max-width: 1200px;                     /* Maksimal bredde for boksen */
+    padding: 30px 20px;                    /* Indvendig afstand */
+    background-color: rgba(255, 255, 255, 0.8); /* Baggrundsfarve for synlighed */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Let skygge for dybde */
+  }
+  
+  /* H2 og H3 styling */
+  .textbox-title {
+    font-size: 28px;                       /* Størrelse på h2 */
+    margin-bottom: 40px;                   /* Plads mellem h2 og h3 */
+    font-family: fantasy;  
+    color: #333;                           /* Tekstfarve */
+  }
+  
+  .textbox-subtitle {
+    font-size: 24px;                       /* Størrelse på h3 */
+    margin-bottom: 40px;                   /* Plads mellem h3 og billederne */
+    color: #666;                         /* Tekstfarve */
+  }
+  
+  /* Button container for billeder */
+  .button-container {
+    display: flex;                         /* Flexbox layout for billeder */
+    justify-content: center;               /* Centrerer billederne horisontalt */
+    gap: 30px;                             /* Plads mellem billederne */
+  }
+  
+  .button-item {
+    text-align: center;                    /* Centrerer teksten og billedet */
+  }
+  
+  .button-image {
+    max-width: 250px;                      /* Billedets maksimale bredde */
+    height: auto;                          /* Bevarer billedets proportioner */
+    border: 2px solid transparent;         /* Usynlig ramme */
+    transition: border 0.3s;               /* Glidende overgang ved hover */
+    cursor: pointer;                       /* Klikbart billede */
+  }
+  
+  .button-image:hover {
+    border: 3px solid #7d4747;             /* Ændrer rammen ved hover */
+  }
+  
+  .button-title {
+    font-size: 18px;                        /* Størrelse på h4 */
+    font-family: fantasy;                    
+    margin-top: 10px;                      /* Plads mellem billedet og h4 */
+    color: #333;                           /* Tekstfarve */
+  }
+  
+  /* Artikel styling */
+.rejseartikel1 {
+    color: #333; /* Ensartet tekstfarve */
+    margin-top: 20px; /* Plads før artiklen */
+}
+
+/* Overskrifter i artiklen */
+.rejseartikel1 h3 {
+    font-size: 24px; /* Størrelse for h3 */
+    margin-top: 20px; /* Plads over h3 */
+    margin-bottom: 10px; /* Plads under h3 */
+    font-family: 'Georgia', serif; /* Skrifttype for h3 */
+}
+
+.rejseartikel1 h4 {
+    font-size: 20px; /* Størrelse for h4 */
+    margin-top: 15px; /* Plads over h4 */
+    margin-bottom: 10px; /* Plads under h4 */
+    font-family: 'Georgia', serif; /* Skrifttype for h4 */
+    color: #7d4747; /* En lidt lysere farve for h4 */
+}
+
+/* Afsnit styling */
+.rejseartikel1 p {
+    line-height: 1.8; /* Bedre læsbarhed */
+    margin-bottom: 15px; /* Plads mellem afsnit */
+    font-size: 16px; /* Størrelse for paragraf */
+    font-family: 'Arial', sans-serif; /* Skrifttype for paragraf */
+}
+
+/* Liste styling */
+.rejseartikel1 ul {
+    list-style-type: disc; /* Punkterede lister */
+    margin-left: 20px; /* Indrykning af liste */
+    margin-bottom: 20px; /* Plads under listen */
+}
+
+/* Billede styling */
+.side-image {
+    max-width: 100%; /* Billedets bredde skal være responsiv */
+    height: auto; /* Bevar billedets proportioner */
+    margin-top: 20px; /* Plads over billedet */
+    margin-bottom: 20px; /* Plads under billedet */
+}
+
+/* Flex-boks styling */
+.flex-textbox {
+    text-align: center; /* Venstrestil alt indhold */
+    padding: 30px; /* Indvendig afstand */
+    border-radius: 10px; /* Afrundede hjørner for boksen */
+    background-color: rgba(255, 255, 255, 0.9); /* En lysere baggrund for bedre kontrast */
+}
